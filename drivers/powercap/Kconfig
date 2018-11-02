@@ -29,4 +29,10 @@ config INTEL_RAPL
 	  controller, CPU core (Power Plance 0), graphics uncore (Power Plane
 	  1), etc.
 
+config POWERCLAMP_POWERCAP
+	tristate "Power-capping using intel_powerclamp(idle injection)"
+	depends on INTEL_POWERCLAMP
+	default n
+	---help---
+    
 endif

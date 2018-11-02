@@ -632,7 +632,7 @@ static int powerclamp_get_cur_state(struct thermal_cooling_device *cdev,
 	return 0;
 }
 
-static int powerclamp_set_cur_state(struct thermal_cooling_device *cdev,
+int powerclamp_set_cur_state(struct thermal_cooling_device *cdev,
 				 unsigned long new_target_ratio)
 {
 	int ret = 0;
@@ -657,6 +657,7 @@ static int powerclamp_set_cur_state(struct thermal_cooling_device *cdev,
 exit_set:
 	return ret;
 }
+EXPORT_SYMBOL(powerclamp_set_cur_state);
 
 /* bind to generic thermal layer as cooling device*/
 static struct thermal_cooling_device_ops powerclamp_cooling_ops = {
