@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0
 /*
  * Power capping class
  * Copyright (c) 2013, Intel Corporation.

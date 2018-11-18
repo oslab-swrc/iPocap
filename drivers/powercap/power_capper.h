@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0
 #ifndef __POWER_CAPPER_H
 #define __POWER_CAPPER_H
 
