@@ -1,4 +1,7 @@
-// SPDX-License-Identifier: GPL-2.0
+// SPDX-FileCopyrightText: Copyright (c) 2018 Sungkyunkwan university
+// SPDX-License-Identifier: GPL-2.0-or-later
+// idle injection based power-capping using intel_powerclamp driver
+
 #include <linux/module.h>
 #include <linux/slab.h>
 #include <linux/delay.h>
